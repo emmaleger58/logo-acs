@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'helvetica';
+  src: url(Helvetica45Light_22437.ttf);
+}
+
+body{
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: helvetica;
+}
+
+.chevrons{
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+#chevron{
+  color: #c52747;
+}
+
+#code{
+  background-color: #c52747;
+  padding: 4px;
+  color: black;
+}
+
+#school{
+  font-size: 3vw;
+  border-top: 0.25vw solid white;
+  letter-spacing: 1.3vw;
+}
